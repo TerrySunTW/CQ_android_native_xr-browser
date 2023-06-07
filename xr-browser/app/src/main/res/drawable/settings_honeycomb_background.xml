@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <vector android:width="200dp"
+            android:height="200dp"
+            android:viewportWidth="200"
+            android:viewportHeight="200">
+            <path
+                android:fillColor="@color/void_color"
+                android:pathData="M15,0L165,0A15,15 0,0 1,180 15L180,165A15,15 0,0 1,165 180L15,180A15,15 0,0 1,0 165L0,15A15,15 0,0 1,15 0z"/>
+        </vector>
+    </item>
+    <item android:state_hovered="true">
+        <vector android:width="200dp"
+            android:height="200dp"
+            android:viewportWidth="200"
+            android:viewportHeight="200">
+            <path
+                android:fillColor="@color/fog"
+                android:pathData="M15,0L165,0A15,15 0,0 1,180 15L180,165A15,15 0,0 1,165 180L15,180A15,15 0,0 1,0 165L0,15A15,15 0,0 1,15 0z"/>
+        </vector>
+    </item>
+    <item>
+        <vector android:width="200dp"
+            android:height="200dp"
+            android:viewportWidth="200"
+            android:viewportHeight="200">
+            <path
+                android:fillColor="@color/asphalt"
+                android:pathData="M15,0L165,0A15,15 0,0 1,180 15L180,165A15,15 0,0 1,165 180L15,180A15,15 0,0 1,0 165L0,15A15,15 0,0 1,15 0z"/>
+        </vector>
+    </item>
+</selector>
